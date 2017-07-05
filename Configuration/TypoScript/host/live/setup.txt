@@ -1,0 +1,38 @@
+config {
+	baseURL = http://woehlke.org/
+	absRefPrefix = http://woehlke.org/
+	compressCss = 1
+	compressJs = 1
+	concatenateCss = 1
+	concatenateJs = 1
+}
+
+plugin {
+	tx_directmail_pi1 {
+		siteUrl = http://woehlke.org/
+	}
+	tx_news {
+		rss.channel {
+			link =  http://woehlke.org/feed.rss
+		}
+	}
+}
+
+[globalVar = TSFE:type = 9818]
+	config {
+		baseURL = http://woehlke.org/
+		absRefPrefix = http://woehlke.org/
+	}
+	plugin.tx_news.settings.useStdWrap = http://woehlke.org/feed.rss
+[global]
+
+[globalVar = TSFE:type = 9819]
+	config {
+		baseURL = http://woehlke.org/
+		absRefPrefix = http://woehlke.org/
+	}
+	plugin.tx_news.settings.useStdWrap = http://woehlke.org/feed.rss
+[global]
+
+
+

@@ -1,0 +1,189 @@
+### Not in Constant Editor ###
+
+# versions for cdn only
+bootstrap.version = 3.3.7
+jquery.version = 2.2.4
+fontawesome.version = 4.7.0
+mmenu.version = 5.7.8
+animate.version = 3.5.2
+
+#-------------------------------------------------------------------------------
+#	Plugin Constants
+#-------------------------------------------------------------------------------
+
+# {$plugin.tx_typo3_woehlke_org.settings.host}
+
+plugin {
+	tx_typo3_woehlke_org {
+		url {
+			local = http://localhost/typo3_woehlke_org/
+			test = http://test.woehlke.org/
+			live = http://woehlke.org/
+		}
+		view {
+			# cat=plugin.tx_typo3_woehlke_org/file; type=string; label=Path to template root (FE)
+			templateRootPath = EXT:typo3_woehlke_org/Resources/Private/Templates/
+			# cat=plugin.tx_typo3_woehlke_org/file; type=string; label=Path to templates for Content Elements (FE)
+			content.templateRootPath= EXT:typo3_woehlke_org/Resources/Private/Templates/Content/
+			# cat=plugin.tx_typo3_woehlke_org/file; type=string; label=Path to template partials (FE)
+			partialRootPath = EXT:typo3_woehlke_org/Resources/Private/Partials/
+			# cat=plugin.tx_typo3_woehlke_org/file; type=string; label=Path to template layouts (FE)
+			layoutRootPath = EXT:typo3_woehlke_org/Resources/Private/Layouts/
+		}
+	}
+	tx_news {
+		settings {
+			sitemap {
+				startingpoint = 6
+				detailPid = 7
+				recursive = 2
+			}
+		}
+	}
+	t3sbootstrap_configuration {
+		general {
+			company {
+				name = Thomas Wöhlke
+			}
+			pageTitle {
+				suffix = Thomas Wöhlke
+			}
+			tooltip_placement = top
+
+		}
+		pages {
+			homepage {
+				uid = 2
+			}
+			footer {
+				content {
+					pid = 0
+				}
+			}
+		}
+		navigation {
+			navbar {
+				mmenu = 1
+				hover = 1
+				submenu = 1
+			}
+		}
+		styles {
+			jumbotron {
+				bgImg {
+					enable = 1
+				}
+			}
+			bsHeader {
+				enable = 2
+			}
+			navbar {
+				style {
+					inverse = 1
+				}
+			}
+		}
+		navigation {
+			navbar {
+				search {
+					enable = 1
+				}
+			}
+		}
+	}
+}
+
+fl_realurl_image.conf_crop = 210
+
+# see plugin.t3sbootstrap_configuration.styles
+styles {
+	content {
+		loginform {
+			pid = 3
+			recursive = 1
+			showForgotPasswordLink = 1
+			showPermaLogin = 1
+			emailFrom = typo3@woehlke.org
+			emailFromName = typo3@woehlke.org
+			replyToEmail = typo3@woehlke.org
+			newPasswordMinLength = 8
+			templateFile = EXT:typo3_woehlke_org/Resources/Private/Extensions/felogin/FrontendLogin.html
+		}
+		textmedia {
+			linkWrap {
+				lightboxEnabled = 1
+			}
+		}
+		allowTags = iframe, a, abbr, acronym, address, article, aside, b, bdo, big, blockquote, br, caption, center, cite, code, col, colgroup, dd, del, dfn, dl, div, dt, em, font, footer, header, h1, h2, h3, h4, h5, h6, hr, i, img, ins, kbd, label, li, link, meta, nav, ol, p, pre, q, samp, sdfield, section, small, span, strike, strong, style, sub, sup, table, thead, tbody, tfoot, td, th, tr, title, tt, u, ul, var
+	}
+	jumbotron {
+		hidden {
+			sm = 1
+		}
+	}
+}
+
+
+
+
+
+
+plugin.tx_powermail.settings.sender.attachment = 1
+plugin.tx_powermail.settings.main.pid = 16
+plugin.tx_powermail.settings.main.confirmation = 1
+plugin.tx_powermail.settings.main.optin = 1
+plugin.tx_powermail.settings.sender.senderHeader.email = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.senderHeader.email = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.senderHeader.name = typo3@woehlke.org
+plugin.tx_powermail.settings.sender.senderHeader.name = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.default.senderName = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.default.senderEmail = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.email = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.name = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.senderName = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.senderEmail = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.subject = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.cc = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.bcc = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.returnPath = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.replyToEmail = typo3@woehlke.org
+plugin.tx_powermail.settings.receiver.overwrite.replyToName = Kontakt Formular auf woehlke.org
+plugin.tx_powermail.settings.sender.default.senderName = Kontakt Formular auf woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.email = typo3@woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.name = Kontakt Formular auf woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.senderName = Kontakt Formular auf woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.senderEmail = typo3@woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.subject = Kontakt Formular auf woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.cc = typo3@woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.bcc = typo3@woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.returnPath = typo3@woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.replyToEmail = typo3@woehlke.org
+plugin.tx_powermail.settings.sender.overwrite.replyToName = typo3@woehlke.org
+plugin.tx_powermail.settings.misc.ajaxSubmit = 1
+plugin.tx_powermail.settings.misc.addQueryString = 1
+plugin.tx_powermail.settings.misc.randomizeFileName = 1
+plugin.tx_powermail.settings.spamshield.email = typo3@woehlke.org
+plugin.tx_powermail.settings.spamshield.emailSubject = Spam in powermail form recognized at woehlke.org
+plugin.tx_powermail.settings.spamshield.logfileLocation = typo3temp/logs/powermail_spam.log
+plugin.tx_indexedsearch.settings.targetPid = 10
+plugin.tx_indexedsearch.settings.rootPidList = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

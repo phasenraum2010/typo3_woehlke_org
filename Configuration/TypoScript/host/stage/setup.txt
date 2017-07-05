@@ -1,0 +1,37 @@
+config {
+	baseURL = http://oekumene-tiergarten.thomas-woehlke.de/
+	absRefPrefix = http://oekumene-tiergarten.thomas-woehlke.de/
+	compressCss = 1
+	compressJs = 1
+	concatenateCss = 1
+	concatenateJs = 1
+}
+
+plugin {
+	tx_directmail_pi1 {
+		siteUrl = http://oekumene-tiergarten.thomas-woehlke.de
+	}
+	tx_news {
+		rss.channel {
+			link =  http://oekumene-tiergarten.thomas-woehlke.de/feed.rss
+		}
+	}
+}
+
+
+
+[globalVar = TSFE:type = 9818]
+	config {
+		baseURL = http://oekumene-tiergarten.thomas-woehlke.de/
+		absRefPrefix = http://oekumene-tiergarten.thomas-woehlke.de/
+	}
+	plugin.tx_news.settings.useStdWrap = http://oekumene-tiergarten.thomas-woehlke.de/feed.rss
+[global]
+
+[globalVar = TSFE:type = 9819]
+	config {
+		baseURL = http://oekumene-tiergarten.thomas-woehlke.de/
+		absRefPrefix = http://oekumene-tiergarten.thomas-woehlke.de/
+	}
+	plugin.tx_news.settings.useStdWrap = http://oekumene-tiergarten.thomas-woehlke.de/feed.rss
+[global]

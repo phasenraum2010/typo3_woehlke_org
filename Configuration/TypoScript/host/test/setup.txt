@@ -1,0 +1,42 @@
+config {
+	baseURL = http://test.woehlke.org/
+	absRefPrefix = http://test.woehlke.org/
+	compressCss = 0
+	compressJs = 0
+	concatenateCss = 0
+	concatenateJs = 0
+}
+
+plugin {
+	tx_directmail_pi1 {
+		siteUrl = http://test.woehlke.org
+	}
+	tx_news {
+		rss.channel {
+			link = http://test.woehlke.org/feed.rss
+		}
+	}
+}
+
+
+
+[globalVar = TSFE:type = 9818]
+	config {
+		baseURL = http://test.woehlke.org/
+		absRefPrefix = http://test.woehlke.org/
+	}
+	#plugin.tx_news.settings.useStdWrap = http://test.woehlke.org/feed.rss
+[global]
+
+[globalVar = TSFE:type = 9819]
+	config {
+		baseURL = http://test.woehlke.org/
+		absRefPrefix = http://test.woehlke.org/
+	}
+	#plugin.tx_news.settings.useStdWrap = http://test.woehlke.org/feed.rss
+[global]
+
+
+
+
+

@@ -1,0 +1,15 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/all/config.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/all/plugin.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/all/page.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/all/fsc.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/all/tt_content.ts">
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+plugin {
+	tx_news {
+		view {
+			templateRootPath = EXT:typo3_woehlke_org/Resources/Private/Extensions/news/Templates
+			partialRootPath = EXT:typo3_woehlke_org/Resources/Private/Extensions/news/Partials/
+			layoutRootPath = EXT:typo3_woehlke_org/Resources/Private/Extensions/news/Layouts/
+			twb {
+				templateRootPath = EXT:typo3_woehlke_org/Resources/Private/Extensions/news/Templates
+				partialRootPath = EXT:typo3_woehlke_org/Resources/Private/Extensions/news/Partials/
+				layoutRootPath = EXT:typo3_woehlke_org/Resources/Private/Extensions/news/Layouts/
+			}
+		}
+	}
+	tx_typo3_woehlke_org {
+		view {
+			# cat=plugin.tx_typo3_woehlke_org/file; type=string; label=Path to template root (FE)
+			templateRootPath = EXT:typo3_woehlke_org/Resources/Private/Templates/
+			# cat=plugin.tx_typo3_woehlke_org/file; type=string; label=Path to templates for Content Elements (FE)
+			content.templateRootPath= EXT:typo3_woehlke_org/Resources/Private/Templates/Content/
+			# cat=plugin.tx_typo3_woehlke_org/file; type=string; label=Path to template partials (FE)
+			partialRootPath = EXT:typo3_woehlke_org/Resources/Private/Partials/
+			# cat=plugin.tx_typo3_woehlke_org/file; type=string; label=Path to template layouts (FE)
+			layoutRootPath = EXT:typo3_woehlke_org/Resources/Private/Layouts/
+		}
+	}
+}
