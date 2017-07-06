@@ -75,7 +75,7 @@ plugin {
 			detail {
 				errorHandling = 18,404
 				showPrevNext = 1
-				disqusShortname = thomas_woehlke_org
+				disqusShortname = woehlke-org
 			}
 			link {
 				hrDate = 1
