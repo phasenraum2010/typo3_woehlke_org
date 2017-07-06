@@ -53,17 +53,17 @@ plugin {
 			disqusLocale = de
 			includeSubCategories = 1
 			categoryConjunction = 1
-			startingpoint = 22
+			startingpoint = 4
 			recursive = 4
-			detailPid = 6
-			listPid = 5
-			backPid = 5
+			detailPid = 7
+			listPid = 6
+			backPid = 6
 			detailPidDetermination = default
 			cropMaxCharacters = 200
 			overrideFlexformSettingsIfEmpty = backPid,listPid,startingpoint,recursive,list.paginate.itemsPerPage,cropMaxCharacters
 			enablePreviewOfHiddenRecords = 1
 			list {
-				media.dummyImage = typo3conf/ext/typo3_woehlke_org/Resources/Public/Images/logo_oekumene.jpg
+				media.dummyImage = typo3conf/ext/typo3_woehlke_org/Resources/Public/Images/logo.jpg
 				paginate {
 					itemsPerPage = 5
 					insertAbove = 1
@@ -73,9 +73,9 @@ plugin {
 				}
 			}
 			detail {
-				errorHandling = 30,404
+				errorHandling = 18,404
 				showPrevNext = 1
-				disqusShortname = typo3_woehlke_org
+				disqusShortname = thomas_woehlke_org
 			}
 			link {
 				hrDate = 1
