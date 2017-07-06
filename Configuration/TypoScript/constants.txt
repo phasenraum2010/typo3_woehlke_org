@@ -34,9 +34,9 @@ plugin {
 	tx_news {
 		settings {
 			sitemap {
-				startingpoint = 6
+				startingpoint = 4
 				detailPid = 7
-				recursive = 2
+				recursive = 5
 			}
 		}
 	}
@@ -125,9 +125,6 @@ styles {
 
 
 
-
-
-
 plugin.tx_powermail.settings.sender.attachment = 1
 plugin.tx_powermail.settings.main.pid = 16
 plugin.tx_powermail.settings.main.confirmation = 1
@@ -167,6 +164,7 @@ plugin.tx_powermail.settings.spamshield.emailSubject = Spam in powermail form re
 plugin.tx_powermail.settings.spamshield.logfileLocation = typo3temp/logs/powermail_spam.log
 plugin.tx_indexedsearch.settings.targetPid = 10
 plugin.tx_indexedsearch.settings.rootPidList = 1
+
 
 
 
