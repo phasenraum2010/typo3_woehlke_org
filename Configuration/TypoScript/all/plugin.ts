@@ -55,9 +55,9 @@ plugin {
 			categoryConjunction = 1
 			startingpoint = 4
 			recursive = 4
-			detailPid = 7
-			listPid = 6
-			backPid = 6
+			#detailPid = 7
+			#listPid = 6
+			#backPid = 6
 			detailPidDetermination = default
 			cropMaxCharacters = 200
 			overrideFlexformSettingsIfEmpty = backPid,listPid,startingpoint,recursive,list.paginate.itemsPerPage,cropMaxCharacters
