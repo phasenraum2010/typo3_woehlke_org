@@ -1,4 +1,5 @@
 TCEMAIN {
+	/*
 	preview {
 		tx_news_domain_model_news {
 			previewPageId = 7
@@ -12,6 +13,7 @@ TCEMAIN {
 			}
 		}
 	}
+	*/
 	clearCacheCmd = cacheTag:tx_news
 	tt_content {
 		pi_flexform {

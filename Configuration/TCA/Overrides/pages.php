@@ -13,7 +13,7 @@ call_user_func(
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('typo3_woehlke_org', 'Configuration/TypoScript',
             'Thomas Wöhlke'
         );
-
+/*
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('typo3_woehlke_org', 'Configuration/TypoScript/news/rssfeed',
             'Thomas Wöhlke Blog RSS Feed'
         );
@@ -21,6 +21,7 @@ call_user_func(
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('typo3_woehlke_org', 'Configuration/TypoScript/news/ical',
             'Thomas Wöhlke Blog iCal'
         );
+*/
 
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('typo3_woehlke_org', 'Configuration/TypoScript/host/local',
             'Thomas Wöhlke Localhost'

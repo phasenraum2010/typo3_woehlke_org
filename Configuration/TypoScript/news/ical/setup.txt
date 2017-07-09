@@ -1,6 +1,6 @@
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/blog/ical/ical.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/news/ical/ical.ts">
 
 [globalVar = TSFE:type = 9819]
 pageNewsICalendar.typeNum = 9819
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/blog/ical/ical.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/news/ical/ical.ts">
 [global]

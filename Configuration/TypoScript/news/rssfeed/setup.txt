@@ -1,8 +1,8 @@
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/blog/rssfeed/rssfeed.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/news/rssfeed/rssfeed.ts">
 
 [globalVar = TSFE:type = 9818]
 pageNewsRSS.typeNum = 9818
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/blog/rssfeed/rssfeed.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3_woehlke_org/Configuration/TypoScript/news/rssfeed/rssfeed.ts">
 [global]
 
 
